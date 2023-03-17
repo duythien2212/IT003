@@ -115,7 +115,6 @@ int main()
             std::chrono::duration<double> elapsed_seconds = end-start;
             std::time_t end_time = std::chrono::system_clock::to_time_t(end);
         
-            // std::cout << "arr[" << i << "] : " << elapsed_seconds.count() << "\n";
             cout << elapsed_seconds.count() << "\n";
 
         }
